@@ -1,0 +1,33 @@
+{
+  "title": "Incube-Website",
+  "name": "ETH-Entrepreneur-Club-Incube-Website",
+  "version": "0.0.1",
+  "description": "Landing page of the ETH Entrepreneur Club InCube Website",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://github.com/eth-entrepreneurclub/incube-website",
+  "bugs": {
+    "url": "https://github.com/entrepreneur-club/incube-website/issues"
+  },
+  "license": "MIT",
+  "author": "Lukas Reichart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.2.0",
+    "gulp-header": "1.8.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2"
+  }
+}
