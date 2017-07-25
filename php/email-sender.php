@@ -32,9 +32,6 @@ if($Recipient) {
 				   "Email: " . $Email . "\n" .
 				   "Subject: " . $Subject . "\n" .
 				   "Message: " . $Message . "\n" .
-				   "No Of Guests: " . $Guests . "\n" .
-				   "Event: " . $Events . "\n" .
-				   "Category: " . $Category . "\n";
 
 	$Email_headers = "";
 	$Email_headers .= 'From: ' . $Name . ' <' . $Email . '>' . "\r\n".
