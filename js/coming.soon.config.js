@@ -8,7 +8,9 @@
 		$(".countdown").countdown({
 			until: untilDate, 
 			format: 'dHMS',
-			padZeroes: true
+			padZeroes: true,
+			labels: ['Years', 'Months', 'Weeks', 'Days', 'Hours', 'Min', 'Sec'],
+			labels1: ['Year', 'Month', 'Week', 'Day', 'Hour', 'Min', 'Sec'],
 		});
 
 	}); // End document ready
