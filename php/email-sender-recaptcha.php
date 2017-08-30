@@ -4,7 +4,7 @@ session_cache_limiter('nocache');
 header('Expires: ' . gmdate('r', 0));
 header('Content-type: application/json');
 
-$Recipient = 'lukas@eth.ec'; // <-- Set your email here
+$Recipient = 'incube@entrepreneur-club.org'; // <-- Set your email here
 
 // Register API keys at https://www.google.com/recaptcha/admin
 $siteKey = "6LdLVioUAAAAANz1-KBW-YUMydmScpgrkx21g2xj";
